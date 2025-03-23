@@ -51,15 +51,14 @@ button:hover {
 }
 
 #workspaces {
-    background-color: #202224;
     border-radius: 20px;
 }
 
 #workspaces button {
-    padding: 0 4px;
-    color: #FFD700;
-    border-radius: 20px;
-    margin: 5px;
+    padding: 3px 10px;
+    color: #fabd2f;
+    border-radius: 100%;
+    margin: 3px 8px;
 }
 
 #workspaces button.visible {
@@ -67,8 +66,8 @@ button:hover {
 }
 
 #workspaces button.active {
-    background-color: #FFD700;
-    color: #343A40;
+    background-color: #fabd2f;
+    color: #504945;
 }
 
 #workspaces button.urgent {
@@ -97,6 +96,7 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #mpd,
+#workspaces,
 #language {
     padding: 0 10px;
     color: #fabd2f;
